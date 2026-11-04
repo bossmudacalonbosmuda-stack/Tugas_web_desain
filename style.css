@@ -1,0 +1,97 @@
+/* style.css - Digunakan bersama untuk Profil Diri & Profil Keluarga */
+
+body {
+    background-color: #EAF2E3;
+    color: #25311F;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #1F4D3A;
+}
+
+/* Pengaturan Menu Navigasi & Hyperlink */
+.nav-menu {
+    background-color: #F3C98B;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.nav-menu a {
+    color: #1F6F54;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav-menu a:hover {
+    color: #C2571A;
+    text-decoration: underline;
+}
+
+.nav-menu a:visited {
+    color: #5B4A8B;
+}
+
+/* Kotak Konten Utama */
+.container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid #7FA38A;
+    max-width: 860px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Pengaturan Tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+th, td {
+    border: 1px solid #7FA38A;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #1F4D3A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.row-ganjil {
+    background-color: #F4F9F0;
+}
+
+.row-genap {
+    background-color: #FFFFFF;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1F4D3A;
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F4D3A;
+    color: #F3C98B;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
